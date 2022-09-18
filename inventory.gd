@@ -2,16 +2,16 @@
 # This is an interface for an inventory system
 # like minecraft or terraria, with the exception that it
 # uses a dictionary to store items
-
+# Last updated: 17/9/2022
 
 # The name of this class
 class_name Inventory
 
 # Load class/es
 var DictionaryUtils = preload(
-		"res://godot-libs/libs/utils/dictionary_utils.gd")
-var Item = preload("res://godot-libs/inventory/items/item.gd")
-var ObjectUtils = preload("res://godot-libs/libs/utils/object_utils.gd")
+		"res://godot-libs/sub.gd.utils/dictionary_utils.gd")
+var Item = preload("res://godot-libs/sub.gd.inventory-src/items/item.gd")
+var ObjectUtils = preload("res://godot-libs/sub.gd.utils/object_utils.gd")
 
 # Signals
 # The new inv is a reference to the actual inventory, remember that
