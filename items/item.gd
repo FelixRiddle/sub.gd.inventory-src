@@ -2,8 +2,8 @@ class_name Item
 
 # Scripts
 var DicitonaryUtils = preload(
-	"res://godot-libs/libs/utils/dictionary_utils.gd")
-var uuid_util = preload("res://godot-libs/libs/uuid.gd")
+	"res://godot-libs/sub.gd.utils/dictionary_utils.gd")
+var uuid_util = preload("res://godot-libs/sub.gd.utils/uuid.gd")
 
 # Signals
 signal slot_changed
